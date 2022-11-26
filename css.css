@@ -1,0 +1,96 @@
+#strycker {
+  background-color:rgba(255, 190, 190, 0.4);padding:15px;text-align:center;
+  text-shadow: 0 0 0.2em rgb(0, 0, 0), 0 0 0.2em rgb(83, 0, 0),
+		0 0 0.2em rgb(255, 5, 5)
+}
+.menu {
+
+  float: left;
+
+  width: 20%;
+
+  text-align: center;
+
+
+}
+.menu a {
+
+  background-color: rgba(255, 190, 190, 0.4);
+
+  padding: 8px;
+
+  margin-top: 7px;
+
+  display: block;
+
+  width: 100%;
+
+  color: rgb(0, 0, 0);
+
+}
+.main {
+
+  float: left;
+
+  width: 60%;
+
+  padding: 0 20px;
+
+  color: rgb(255, 255, 255);
+
+  text-shadow: 0 0 0.2em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0),
+		0 0 0.2em rgb(0, 0, 0)
+
+}
+.right {
+
+  background-color: rgba(255, 190, 190, 0.4);
+
+  float: left;
+
+  width: 16%;
+
+  padding: 15px;
+
+  margin-top: 7px;
+
+  text-align: center;
+
+
+}
+@media only screen and (max-width: 620px) {
+
+  /* For mobile phones: */
+
+  .menu, .main, .right {
+
+    width: 100%;
+
+  }
+
+}
+
+body {
+min-width: ;
+  background-image: url(Imagenes/espacio.gif);
+  background-size: cover;
+}
+
+#copy{
+  background-color:rgba(255, 190, 190, 0.4);text-align:center;padding:10px;margin-top:7px;"
+
+}
+
+#logo{
+  width: 200px;
+  height: 200px;
+}
+
+#abajo{
+  overflow:auto
+}
+
+#minilogos{
+  width: 15px;
+  height: 14px;
+}
